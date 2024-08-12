@@ -42,8 +42,8 @@ class Course {
 	private:
     int id;
     int numOfTAs;
-    std::string *courseName;
-    std::string *department;
+    string *courseName;
+    string *department;
 
 };
 
