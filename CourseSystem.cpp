@@ -35,7 +35,7 @@ int CourseSystem::addCourse(Course *newCourse) {
 
 /* insert a course at a given index in the courseList in CourseSystem */
 int CourseSystem::insertCourse(int index, Course *newCourse) {
-	if (index < 0 || index > capacity ||index > (numOfCourse + 1) || newCourse == nullptr) {
+	if (index < 0 || index > capacity || index > (numOfCourse + 1) || newCourse == nullptr) {
 		return FAILURE;
 	} else {
 		if (index == (numOfCourse + 1)) {
@@ -81,3 +81,4 @@ int CourseSystem::resize(int capacity) {
 		return SUCCESS;
 	}
 }
+
