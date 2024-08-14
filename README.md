@@ -1,1 +1,1 @@
-This projects develops understanding on array and class hierarchy
+This projects develops understanding on array
